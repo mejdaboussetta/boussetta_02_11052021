@@ -36,6 +36,7 @@ html,body{
 {
     background: color #f2f2f2;
 }
+
 /*NAV*/
 .sizeLiens
 {
@@ -151,4 +152,9 @@ html,body{
 }
 .paddingsearch{
     padding-left: 50px;
+}
+.iconeinfo
+{
+ height: 15px;
+ width: 15px;
 }
