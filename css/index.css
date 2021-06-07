@@ -2,13 +2,32 @@
 html,body{
     font-family: "Raleway", sans-serif;
 }
-nav{
-    float:right;
-    flex:content;
-    color:none;
-    
-    
-    
+/*nav*/
+.barredenavigation{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    }
+.flexliens{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
+.espacementliens{
+    width:45%;
+}
+.decoration{
+    text-decoration:none;
+    color:#0065FC;
+}
+.couleuractivité{
+    color: black;
+}
+.iconemap{
+    height:20px;
+    width:20px;
+    background-color:gray;}
+
 
     
