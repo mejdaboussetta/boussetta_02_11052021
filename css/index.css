@@ -88,6 +88,7 @@ display:flex;
 justify-content:center;
 align-items: center;
 padding-right:20px;
+font-weight: bold;
 }
 .espacementéléments:hover > .valeurtext{
     color: #0065FC;
@@ -118,4 +119,58 @@ padding-right:20px;
 .iconeinfo{
     height: 20px;
     width:20px;
-}    
+}  
+.hébergements{
+    flex:2;
+    height:500px;
+    width:860px;
+    margin-right:20px;
+    border-radius: 10px;
+    background-color:#F2F2F2;
+}
+.populaire{
+    flex:1;
+    height:500px;
+    width:430px;
+    margin-left:20px;
+    border-radius: 10px;
+    background-color:#F2F2F2;
+}
+section{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.imgpropriétés{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:160px;
+    width:200px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    margin-top: 40px;
+    padding-right: 5px;
+    font-size:10px;
+
+}
+.étoile{
+    height:10px;
+    width:10px;
+}
+.img{
+    height:90px;
+    width:150px;
+    border-radius: 10px 10px 0 0;
+    padding:1px 1px 1px 1px;
+    justify-content: center;
+    align-items:center;
+}
+.imgalignement{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
