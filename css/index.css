@@ -91,17 +91,17 @@ input{
 .boitefiltre{
     border-radius: 30px;
     border:#F2F2F2 solid 1px;
-    height:50px;
-    margin-left:20px ;
-    margin-right:20px;
+    height:40px;
+    margin-left:10px ;
+    margin-right:10px;
     font-weight: bold;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 .icone{
-    height:52px;
-    width:52px;
+    height:42px;
+    width:42px;
     background-color: #DEEBFF;
     color:#0065FC;
     display: flex;
@@ -131,26 +131,49 @@ input{
     width:20px;
 }
 .hébergementMarseille{
-    flex:2;
-    height:400px;
-    width:580px;
+    height:560px;
+    width:800px;
     background-color: #F2F2F2;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left:20px;
     }
+.margetext{
+    margin-left:10px;
+}    
 .lespluspopulaires{
-    flex:1;
-    height:400px;
-    width:290px;
+    height:560px;
+    width:400px;
     background-color: #F2F2F2;
-    border-radius: 25px;
+    border-radius: 10px;
+    padding-left:40px;
+    padding-right: 20px;
+    padding-top:20px;
     }
+.margepopulaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.chart-line{
+    height:20px;
+    width:20px;
+    }
+.flexaround{
+    display:flex;
+    gap:30px;
+}
+.margetitre{
+    margin-left:20px;
+}  
 .propriétésimg{
-    height:70px;
-    width:150px;
+    object-fit: cover;
+    height:100px;
+    width:220px;
     border-radius: 20px 20px 0 0;
-    padding-top: 2px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
 }    
 .étoile{
     height:10px;
@@ -159,20 +182,38 @@ input{
 
 .boitecarte{
     display:flex;
-    justify-content:space-between;
-    align-items:center;
+    gap:20px;
     flex-direction: column;
-    height:120px;
-    width:160px;
+    height:180px;
+    width:220px;
     background-color:#ffffff;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
     font-size: 10px;
-    margin-bottom:10px;
+    margin-bottom:3px;
 } 
 .arrangementcartes{
     display:inline-flex;
-    justify-content: space-around;
+    gap:20px;
     flex-direction: row;
     margin-bottom: 20px;
 }
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:150px;
+    width:85%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background-color: #F2F2F2;
+}
+.tailleblocfooter{
+    height:140px;
+    font-size:10px;
+    font-weight: bold;
+    padding-right:230px;
+    padding-left:30px;
+}
+
