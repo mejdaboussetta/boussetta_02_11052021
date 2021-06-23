@@ -191,12 +191,7 @@ input{
     margin-left: 10px;
     font-size: 10px;
     margin-bottom:3px;
-} 
-.arrangementcartes{
-    display:inline-flex;
-    gap:20px;
     flex-direction: row;
-    margin-bottom: 20px;
 }
 footer{
     display:flex;
