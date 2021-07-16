@@ -78,7 +78,7 @@ input{
     border: none;
     padding-left: 20px;
 }
-.rechercher{
+#search-button{
     background-color:#0065FC;
     height:50px;
     width:120px;
@@ -88,6 +88,9 @@ input{
     justify-content: center;
     align-items: center;
     border-radius: 0 10px 10px 0;
+}
+#search-button img{
+    display:none;
 }
 /*filtre*/
 
@@ -256,7 +259,7 @@ input{
 .propriétésimg2{
     object-fit: cover;
     height:116px;
-    width:130px;
+    width:115px;
     border-radius: 20px 0 0 20px;
     padding-top: 3px;
     padding-right: 20px;
