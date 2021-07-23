@@ -17,6 +17,36 @@ header nav{
     position:absolute;
     right:15px;
     top:-15px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display:inline-block;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+header nav ul li:first-child{
+    border-top:#0065FC 2px solid;
+}
+header nav ul li:last-child a{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#0065FC;
+}
+header nav ul li:hover{
+    border-top:none;
+}
+header nav ul li:hover a{
+    color:#0065FC;
+}
 
 /*recherche*/
 .barrederecherche{
@@ -148,8 +178,10 @@ input{
 }
 
 .iconeinfo{
-    height:20px;
-    width:20px;
+    height:35px;
+    width:35px;
+    padding-right:5px;
+    padding-top:10px;
 }
 /*cartes hébergements*/
 .hébergementMarseille{
@@ -322,7 +354,7 @@ input{
     padding-top:15px;
     font-weight: bold;
 }
-.margetitre2{
+.margeactivites{
     margin-top: 40px;
     font-weight: bold;
 }
@@ -339,7 +371,7 @@ footer{
     background-color: #F2F2F2;
 }
 .tailleblocfooter{
-    height:140px;
+    /* height:140px; */
     font-size:12px;
     padding-right:230px;
     padding-left:30px;

@@ -1,104 +1,112 @@
 @media all and (max-width: 767px){
 
     #blocpage{
-        max-width: 767px;
-        margin:10px;
-        padding:10px;
+        padding:0px;
     }
     /*header*/
-    header nav ul li{
-        position:sticky;
-        border-bottom: #F2F2F2 solid 2px;
-        padding-bottom: 10px;
+    header{
+        padding-left:20px;
     }
-    header nav ul li:first-child{
-        color:#0065FC;
-        border-bottom:#0065FC 2px solid;
-        border-top:none;
-        padding-bottom:10px;
+    header nav ul li :last-child{
+        position:static;
     }
-    header nav ul li:last-child {
-        position:absolute;
-        color:#0065FC;
-        border-bottom: none;
-    }
-    header nav ul li:hover{
-        border-top:none;
-        color:#0065FC;
-    }
-    header nav ul li:hover a{
-        color:#0065FC;
+    h2{
+        padding-right:20px;
+        padding-left:20px;
+        font-size: 22px;
+        font-weight: bold;
     }
     /*recherche*/
-    #search-button{
-        border-radius: 10px 10px 10px 10px;
+    .barrederecherche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-left:20px;
+        border-radius: 10px;
+        border:0.5px solid #F2F2F2;
+        margin-bottom:30px;
     }
-    #search-button span{
+    .iconemap{
+        height:50px;
+        width:50px;
+        background-color:#F2F2F2;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }    
+    #search-button{
         display:none;
     }
     #search-button img{
-        display:inline-block;
-        height:40px;
-        width: 40px;
+    background-color:#0065FC;
+    height:50px;
+    width:80px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
     }
     /*filtre*/
     .filtre{
         display:table-row;
-        align-items: center;
-        margin-top:40px;
-        margin-bottom: 40px;
+        margin:20px;
         font-weight: bold;
     }
     .boitefiltre1{
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        margin-left:10px ;
-        margin-right:10px;
+        margin-left:20px ;
+        margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
         font-weight: bold;
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .boitefiltre2{
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        margin-left:10px ;
-        margin-right:10px;
+        width:140px;
+        margin-left:20px;
+        margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
         font-weight: bold;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
+        position:unset;
+        justify-content: center;
     }
     .boitefiltre3{
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        margin-left:10px ;
-        margin-right:10px;
+        width:170px;
+        margin-left:20px ;
+        margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
         font-weight: bold;
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .boitefiltre4{
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        margin-left:10px ;
-        margin-right:10px;
+        width:220px;
+        margin-left:20px ;
+        margin-right:20px;
         margin-top:20px;
         margin-bottom:10px;
         font-weight: bold;
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .icone{
@@ -111,6 +119,13 @@
         align-items:center;
         margin-left: -2px;
         border-radius:25px;
+    }
+    .iconeinfo{
+        height:35px;
+        width:35px;
+        padding-right:5px;
+        padding-top:10px;
+
     }
     .icone:hover{
         color:#ffffff;
@@ -130,11 +145,11 @@
     }
     /*carteshebergements*/
     .lespluspopulaires{
-       width:90%;
+       width:100%;
        height:80%;
        background-color: #F2F2F2;
-       border:solid 2px #F2F2F2;
-       padding-left:20px;
+       border-radius:0 0 0 0px;
+       padding-left:40px;
        padding-right: 20px;
        padding-top:20px;
        position:absolute;
@@ -162,10 +177,10 @@
     .hébergementMarseille{
         margin-top:550px;
         background-color:transparent !important;
-        width:90%;
+        width:100%;
         }
     .margetitre{
-        margin-left:20px;
+        margin-left:40px;
         }      
 
     .boitecarte{
@@ -177,7 +192,7 @@
         border:solid 2px #ffffff;
         background-color:#ffffff;
         border-radius: 20px;
-        margin-left: 10px;
+        margin-left: 35px;
         font-size: 18px;
         margin-bottom:10px;
         flex-direction: row;
@@ -195,7 +210,7 @@
         height:125px;
         width:290px;
         background-color:#ffffff;
-        border-radius: 20px;
+        border-radius:20px;
         margin-left:0px;
         font-size: 18px;
         }
@@ -225,12 +240,8 @@
     .margétoile{
         padding-top:50px;
         } 
-    .margetitre{
-        margin-left:20px;
-        font-weight: bold;
-        }
-    .margetitre2{
-        margin-top: 10px;
+    .margehebergement{
+        margin-left:40px;
         font-weight: bold;
         }
     /*activités à marseille*/        
@@ -240,7 +251,7 @@
         width:280px;
         margin-bottom:10px;
         margin-top:10px;
-        margin-left: 20px;
+        margin-left: 50px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius: 20px 20px 20px 20px;
@@ -250,9 +261,9 @@
         display:flex;
         height:150px;
         width:280px;
-        margin-bottom:5px;
-        margin-top:5px;
-        margin-left:20px;
+        margin-bottom:-15px;
+        margin-top:-15px;
+        margin-left:50px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius:20px 20px 20px 20px;
@@ -263,9 +274,9 @@
         display:flex;
         height:150px;
         width:280px;
-        margin-bottom:5px;
-        margin-top:5px;
-        margin-left:20px;
+        margin-bottom:-10px;
+        margin-top:-10px;
+        margin-left:50px;
         background-color: #ffffff;
         border:solid #f2f2f2 1px;
         border-radius:20px 20px 20px 20px;
@@ -275,29 +286,29 @@
         display:flex;
         justify-content: center;
         flex-direction: column;
-        padding-top:5px;
-        padding-bottom:5px;
+        padding-top:-15px;
+        padding-bottom:-15px;
         
     } 
     .boite1{
         display:flex;
         justify-content: center;
         flex-direction: column;
-        padding-top:5px;
-        padding-bottom:5px;
+        padding-top:20px;
+        padding-bottom:20px;
     }
     .propriétésimage1{
         object-fit: cover;
         height:100px;
         width:280px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         border-radius: 20px 20px 0 0;
     } 
     .propriétésimage2{
         object-fit: cover;
         height:100px;
         width:280px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         border-radius: 20px 20px 0 0;
     }  
     .propriétésimage3{
@@ -312,23 +323,26 @@
         padding-top: 0px;
         font-weight: bold;
     }
-    .margetitre2{
-        margin-top: 40px;
-        margin-left:30px;
+    .margeactivites{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:60px;
         font-weight: bold;
     }
     /*footer*/
     footer{
-        display:flex;
-        justify-content: center;
-        position: initial;
-        flex-direction: column;
-        height:270px;
+        flex-direction:column;
+        height:600px;
         width:95%;
         background-color: #F2F2F2;
+        margin-top:60px;
+        margin-left:10px;
     }
     .tailleblocfooter{
-        width:140px;
-        font-size:10px;
+        height:150px;
+        width:95%;
+        font-size:0,85rem;
+        padding-right:30px;
+        padding-left:30px;
     }
 }
