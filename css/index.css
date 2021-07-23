@@ -18,36 +18,6 @@ header nav{
     right:15px;
     top:-15px;
 
-}
-header nav ul{
-    list-style: none;
-}
-header nav ul li{
-    display:inline-block;
-    margin-left: 30px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-header nav ul li a{
-    text-decoration: none;
-    color: #000000;
-}
-header nav ul li:first-child{
-    border-top:#0065FC 2px solid;
-}
-header nav ul li:last-child a{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    color:#0065FC;
-}
-header nav ul li:hover{
-    border-top:none;
-}
-header nav ul li:hover a{
-    color:#0065FC;
-}
 /*recherche*/
 .barrederecherche{
     display: flex;
