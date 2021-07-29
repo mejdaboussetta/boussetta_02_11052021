@@ -36,7 +36,7 @@
         align-items: center;
         border-radius: 10px 0 0 10px;
     }    
-    #search-button{
+    #search-button span{
         display:none;
     }
     #search-button img{

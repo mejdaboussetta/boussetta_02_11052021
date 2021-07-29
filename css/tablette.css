@@ -1,12 +1,13 @@
-@media all and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1024px){
     .hébergementMarseille{
-        width:100%;
+        width:90%;
         background-color: #F2F2F2;
         border-radius: 10px;
         padding-top: 20px;
-        padding-left:10px;
-        padding-right:10px;
+        padding-left:5px;
+        padding-right:5px;
         margin-bottom: 20px;
+        margin-left:80px;
         }
         .margetext{
             margin-left:15px;
@@ -14,33 +15,32 @@
         }    
         .boitecarte{
             display:flex;
-            gap:5px;
+            gap:2px;
             flex-direction: column;
             height:180px;
-            width:210px;
+            width:180px;
             background-color:#ffffff;
-            border-radius: 20px;
-            margin-left: 5px;
-            margin-right: 5px;
-            font-size: 18px;
+            border-radius: 20px 20px 0 0;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-size: 15px;
             margin-bottom:10px;
             flex-direction: row;
         }
         .propriétésimg1{
             object-fit: cover;
-            height:100px;
-            width:214px;
+            height:95px;
+            width:180px;
             border-radius: 20px 20px 0 0;
-            padding-top: 3px;
-            padding-right: 10px;
-            padding-left: 5px;
+            padding-top: 2px;
+            padding-left: 2px;
         }
         .margehebergement{
             margin-left:10px;
             font-weight: bold;
             }    
         .lespluspopulaires{
-            width:50%;
+            width:45%;
             background-color: #F2F2F2;
             border-radius: 10px;
             padding-left:10px;
@@ -53,7 +53,7 @@
                 gap:3px;
                 flex-direction:column;
                 height:130px;
-                width:320px;
+                width:315px;
                 background-color:#ffffff;
                 border-radius: 20px;
                 margin-left:0px;
@@ -62,7 +62,7 @@
             .propriétésimg2{
                 object-fit: cover;
                 height:128px;
-                width:150px;
+                width:115px;
                 border-radius: 20px 0 0 20px;
                 padding-top: 3px;
                 padding-right: 20px;
@@ -92,7 +92,7 @@
                 }
                 .margeactivites{
                     margin-top: 20px;
-                    margin-left:10px;
+                    margin-left:25px;
                     font-weight: bold;
                 }  
                 .boitecarte01{
@@ -116,7 +116,8 @@
                     display:flex;
                     justify-content: space-between;
                     flex-direction: row;
-                    margin-right:100px;
+                    margin-right:20px;
+                    margin-left:20px;
                 }
                 .boitecarte02{
                     display:flex;
@@ -160,9 +161,10 @@
                     justify-content: space-between;
                     align-items: center;
                     height:150px;
-                    width:148%;
+                    width:110%;
                     margin-top: 50px;
                     margin-bottom: 30px;
+                    margin-left:20px;
                     padding-top: 20px;
                     background-color: #F2F2F2;
                 }
