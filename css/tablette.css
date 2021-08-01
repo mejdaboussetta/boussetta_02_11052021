@@ -1,13 +1,61 @@
 @media all and (min-width: 768px) and (max-width: 1024px){
+
+    #blocpage{
+        max-width: 1024px;
+        margin:0 auto;
+        padding:15px;
+        padding-right: 15px;
+    }
+    header nav{
+        position:absolute;
+        right:-180px;
+        top:2px;
+    }
+    .boitefiltre4{
+        border-radius: 30px;
+        border:#F2F2F2 solid 1px;
+        height:50px;
+        width:250px;
+        margin-left:20px ;
+        margin-right:20px;
+        font-weight: bold;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .boitefiltre3{
+        border-radius: 30px;
+        border:#F2F2F2 solid 1px;
+        height:40px;
+        width:200px;
+        margin-left:10px ;
+        margin-right:10px;
+        font-weight: bold;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .icone{
+        height:42px;
+        width:42px;
+        background-color: #DEEBFF;
+        color:#0065FC;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-left: -2px;
+        border-radius:25px;
+    }
     .hébergementMarseille{
-        width:90%;
+        width:81%;
         background-color: #F2F2F2;
         border-radius: 10px;
         padding-top: 20px;
-        padding-left:5px;
-        padding-right:5px;
+        padding-left:20px;
+        padding-right:20px;
         margin-bottom: 20px;
-        margin-left:80px;
+        margin-left:40px;
+        margin-right:10px;
         }
         .margetext{
             margin-left:15px;
@@ -18,11 +66,11 @@
             gap:2px;
             flex-direction: column;
             height:180px;
-            width:180px;
+            width:170px;
             background-color:#ffffff;
             border-radius: 20px 20px 0 0;
             margin-left: 2px;
-            margin-right: 2px;
+            margin-right:2px;
             font-size: 15px;
             margin-bottom:10px;
             flex-direction: row;
@@ -30,30 +78,32 @@
         .propriétésimg1{
             object-fit: cover;
             height:95px;
-            width:180px;
+            width:170px;
             border-radius: 20px 20px 0 0;
             padding-top: 2px;
             padding-left: 2px;
         }
         .margehebergement{
+            margin-top:20px;
             margin-left:10px;
             font-weight: bold;
             }    
         .lespluspopulaires{
-            width:45%;
+            width:50%;
             background-color: #F2F2F2;
             border-radius: 10px;
-            padding-left:10px;
-            padding-right: 10px;
+            padding-left:20px;
+            padding-right: 20px;
             padding-top:20px;
             margin-bottom: 20px;
+            margin-right:40px;
             }
             .boitecarte2{
                 display:flex;
                 gap:3px;
                 flex-direction:column;
                 height:130px;
-                width:315px;
+                width:290px;
                 background-color:#ffffff;
                 border-radius: 20px;
                 margin-left:0px;
@@ -62,7 +112,7 @@
             .propriétésimg2{
                 object-fit: cover;
                 height:128px;
-                width:115px;
+                width:105px;
                 border-radius: 20px 0 0 20px;
                 padding-top: 3px;
                 padding-right: 20px;
@@ -82,7 +132,7 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin-left:10px;
+                    margin-left:8px;
                 }  
          .margetitre{
             margin-left:10px;
@@ -92,15 +142,15 @@
                 }
                 .margeactivites{
                     margin-top: 20px;
-                    margin-left:25px;
+                    margin-left:40px;
                     font-weight: bold;
                 }  
                 .boitecarte01{
                     display:flex;
                     height:400px;
-                    width:250px;
-                    margin-right:25px;
-                    margin-left:5px;
+                    width:230px;
+                    margin-right:10px;
+                    margin-left:25px;
                     background-color: #ffffff;
                     border:solid #F2F2F2 1px;
                     border-radius: 20px 20px 20px 20px;
@@ -122,8 +172,8 @@
                 .boitecarte02{
                     display:flex;
                     height:210px;
-                    width:250px;
-                    margin-right:25px;
+                    width:220px;
+                    margin-left:20px;
                     background-color: #ffffff;
                     border:solid #F2F2F2 1px;
                     border-radius:20px 20px 20px 20px;
@@ -132,7 +182,8 @@
                 .boitecarte03{
                     display:flex;
                     height:150px;
-                    width:250px;
+                    width:220px;
+                    margin-left:20px;
                     background-color: #ffffff;
                     border:solid #f2f2f2 1px;
                     border-radius:20px 20px 20px 20px;
@@ -141,19 +192,19 @@
                 .propriétésimage1{
                     object-fit: cover;
                     height:340px;
-                    width:250px;
+                    width:220px;
                     border-radius: 20px 20px 0 0;
                 } 
                 .propriétésimage2{
                     object-fit: cover;
-                    height:150px;
-                    width:250px;
+                    height:130px;
+                    width:220px;
                     border-radius: 20px 20px 0 0;
                 }
                 .propriétésimage3{
                     object-fit:cover;
                     height:90px;
-                    width:250px;
+                    width:220px;
                     border-radius: 20px 20px 0 0;
                 }
                 footer{
@@ -161,7 +212,7 @@
                     justify-content: space-between;
                     align-items: center;
                     height:150px;
-                    width:110%;
+                    width:142%;
                     margin-top: 50px;
                     margin-bottom: 30px;
                     margin-left:20px;

@@ -15,18 +15,20 @@
  <body>
      <section id="blocpage">
         <header>
-            <img src="images/Reservia.svg" alt="Logo Resrevia">
+            <img src="images/Reservia.svg" class="logo" alt="Logo Resrevia">
             <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a id="hebergement"href="#">Hébergements</a></li>
+                    <li><a id="activites"href="#">Activités</a></li>
                     <li><a href="#"><strong>S'inscrire</strong></a></li>
                 </ul>
             </nav>
         </header>   
             <h2>
                     <strong> Trouvez votre hébergement pour des vacances de rêve </strong></h2>
-                <p> En plein centre ville ou en plein nature </p> 
+                    <div id="paragraphe">
+                <span> En plein centre ville ou en plein nature </span>
+                </div> 
        
          <div>
             <div class="barrederecherche">
@@ -40,15 +42,16 @@
          </div>
        
          <div class="filtre">    
-                <div>Filtres</div>
+                <div class="margefiltre">Filtres</div>
                 <div class="boitefiltre1"><i class="fas fa-money-bill-wave fa-lg valeuricone icone"></i><div class="filtretext">Economique</div></div>
                 <div class="boitefiltre2"><i class="fas fa-child fa-lg valeuricone icone"></i><div class="filtretext">Familial</div></div>
                 <div class="boitefiltre3"><i class="fas fa-heart fa-lg valeuricone icone"></i><div class="filtretext">Romantique</div></div>
                 <div class="boitefiltre4"><i class="fas fa-dog fa-lg valeuricone icone"></i><div class="filtretext">Animaux autorisés</div></div>
           </div> 
-          
-            <p><img src="icones/icone info.svg" alt="icone information" class="iconeinfo">
-             Plus de 500 logements sont disponibles dans cette ville</p>
+          <div id="container">
+            <img src="icones/icone info.svg" alt="icone information" class="iconeinfo">
+            <span>Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
                
             
        <section class="flexaround">
@@ -203,7 +206,7 @@
                         <div class="margetext2">
                             <img src="images/febrian-zakaria-sjvU0THccQA-unsplash.jpg"alt="Hôtel tout bleu et blanc"class="propriétésimg2">
                             <div class="margetitrepopulaire">
-                                <span><strong>Hôtel tout bleu et Blanc</strong></span><br />
+                                <span><strong>Hôtel Tout bleu et Blanc</strong></span><br />
                                 <span>Nuit à partir de 68<strong>€</strong></span>
                                 <div class="margétoile">
                                 <img src="icones/star.svg"alt="étoile"class="étoile">
@@ -285,18 +288,18 @@
             </div>
             <footer>
                 <div class="tailleblocfooter">
-                <h3>A propos</h3>
+                <h3><strong>A propos</strong></h3>
                 <p>Fonctionnement du site</p>
                 <p>Conditions générales de vente</p>
                 <p>Données et confidentialité</p>
                 </div>
                 <div class="tailleblocfooter">
-                <h3>Nos hébergements</h3>
+                <h3><strong>Nos hébergements</strong></h3>
                 <p>Charte qualité</p>
                 <p>Soumettre votre hôtel</p>
                 </div>
                 <div class="tailleblocfooter">
-                <h3>Assistance</h3>
+                <h3><strong>Assistance</strong></h3>
                 <p>Centre d'aide</p>
                 <p>Nous contacter</p>
                 </div>
