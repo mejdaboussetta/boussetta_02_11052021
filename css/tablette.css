@@ -1,23 +1,96 @@
 @media all and (min-width: 768px) and (max-width: 1024px){
-
-    #blocpage{
-        max-width: 1024px;
-        margin:0 auto;
-        padding:15px;
-        padding-right: 15px;
+    .logo{
+        margin-left:0px;
+    }
+    h2{
+        margin-left:0px;
+    } 
+    #paragraphe{
+        margin-bottom:20px;
+        margin-left:0px;
+    }
+    .barrederecherche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 398px;
+        border-radius: 10px;
+        border:0.5px solid #F2F2F2;
+        margin-left:0px;
     }
     header nav{
         position:absolute;
-        right:-180px;
         top:2px;
+    }
+    .barrederecherche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:398px;
+        border-radius: 10px;
+        border:0.5px solid #F2F2F2;
+    }
+    .iconemap{
+        height:50px;
+        width:50px;
+        background-color:#F2F2F2;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }    
+    input{
+        height:50px;
+        width:252px;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    #paragraphe{
+        margin-bottom:20px;
+        margin-left:0px;
+    }
+    #container{
+        margin-bottom:20px;
+        margin-left:0px;
+      }
+    .margefiltre{
+        margin-left:0px;
+    }
+    .boitemarge1{
+        border-radius: 30px;
+        border:#F2F2F2 solid 1px;
+        height:40px;
+        width:120px;
+        margin-left:5px;
+        margin-right:5px;
+        font-weight: bold;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .boitefiltre2{
+        border-radius: 30px;
+        border:#F2F2F2 solid 1px;
+        height:40px;
+        width:120px;
+        margin-left:5px;
+        margin-right:5px;
+        font-weight: bold;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
     }
     .boitefiltre4{
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:50px;
-        width:250px;
-        margin-left:20px ;
-        margin-right:20px;
+        margin-left:5px ;
+        margin-right:5px;
         font-weight: bold;
         display:flex;
         justify-content:space-around;
@@ -27,13 +100,15 @@
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        width:200px;
         margin-left:10px ;
         margin-right:10px;
         font-weight: bold;
         display:flex;
         justify-content:space-around;
         align-items: center;
+    }
+    .margefiltre{
+        margin-right:5px;
     }
     .icone{
         height:42px;
@@ -47,49 +122,51 @@
         border-radius:25px;
     }
     .hébergementMarseille{
-        width:81%;
+        width:70%;
         background-color: #F2F2F2;
         border-radius: 10px;
         padding-top: 20px;
-        padding-left:20px;
-        padding-right:20px;
+        padding-right:10px;
         margin-bottom: 20px;
-        margin-left:40px;
-        margin-right:10px;
+        margin-left:0px;
+        margin-right:-10px;
         }
         .margetext{
-            margin-left:15px;
-            margin-top: 10px;
+            margin-left:5px;
+            margin-top: 5px;
         }    
         .boitecarte{
             display:flex;
             gap:2px;
             flex-direction: column;
-            height:180px;
-            width:170px;
+            height:130px;
+            width:230px;
             background-color:#ffffff;
             border-radius: 20px 20px 0 0;
             margin-left: 2px;
             margin-right:2px;
-            font-size: 15px;
+            font-size: 12px;
             margin-bottom:10px;
             flex-direction: row;
         }
         .propriétésimg1{
             object-fit: cover;
-            height:95px;
-            width:170px;
+            height:65px;
+            width:145px;
             border-radius: 20px 20px 0 0;
             padding-top: 2px;
             padding-left: 2px;
         }
         .margehebergement{
-            margin-top:20px;
+            margin-top:10px;
             margin-left:10px;
             font-weight: bold;
-            }    
+            }
+            .margetitre{
+                margin-left:20px;
+            }      
         .lespluspopulaires{
-            width:50%;
+            width:35%;
             background-color: #F2F2F2;
             border-radius: 10px;
             padding-left:20px;
@@ -98,25 +175,30 @@
             margin-bottom: 20px;
             margin-right:40px;
             }
+            .margetitrepopulaire{
+                margin-top:5px;
+                margin-left:-10px;
+            } 
             .boitecarte2{
                 display:flex;
                 gap:3px;
                 flex-direction:column;
-                height:130px;
-                width:290px;
+                height:90px;
+                width:180px;
                 background-color:#ffffff;
                 border-radius: 20px;
-                margin-left:0px;
-                font-size: 18px;
+                margin-left:-10px;
+                margin-bottom:10px;
+                font-size: 12px;
             }
             .propriétésimg2{
                 object-fit: cover;
-                height:128px;
-                width:105px;
-                border-radius: 20px 0 0 20px;
+                height:90px;
+                width:90px;
+                border-radius:20px 0 0 20px;
                 padding-top: 3px;
-                padding-right: 20px;
-                padding-left: 3px;
+                padding-right:20px;
+                padding-left:3px;
             }
             .chart-line{
                 height:20px;
@@ -126,53 +208,47 @@
                 .margetext2{
                     display:flex;
                     align-items: flex-start;
-                    margin-bottom: 20px;
+                    margin-bottom:0px;
                 } 
                 .margepopulaire{
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin-left:8px;
+                    margin-left:0px;
+                    margin-top:-25px;
                 }  
-         .margetitre{
-            margin-left:10px;
+         
+                .margetitre{
+                margin-left:0px;
                 } 
-                .margetitrepopulaire{
-                    margin-top:20px;
-                }
                 .margeactivites{
-                    margin-top: 20px;
-                    margin-left:40px;
-                    font-weight: bold;
-                }  
+                    margin-top:20px;
+                    font-weight:bold;
+                } 
                 .boitecarte01{
                     display:flex;
                     height:400px;
-                    width:230px;
-                    margin-right:10px;
-                    margin-left:25px;
+                    width:170px;
                     background-color: #ffffff;
                     border:solid #F2F2F2 1px;
                     border-radius: 20px 20px 20px 20px;
                     box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
+                    margin-left:0px;
                 } 
                 .boite1{
                     display:flex;
                     justify-content: center;
                     flex-direction: column;
-                    gap:40px;
                 } 
                 .boite{
                     display:flex;
                     justify-content: space-between;
                     flex-direction: row;
-                    margin-right:20px;
-                    margin-left:20px;
                 }
                 .boitecarte02{
                     display:flex;
-                    height:210px;
-                    width:220px;
+                    height:190px;
+                    width:170px;
                     margin-left:20px;
                     background-color: #ffffff;
                     border:solid #F2F2F2 1px;
@@ -181,9 +257,10 @@
                 } 
                 .boitecarte03{
                     display:flex;
-                    height:150px;
-                    width:220px;
+                    height:170px;
+                    width:170px;
                     margin-left:20px;
+                    margin-right:20px;
                     background-color: #ffffff;
                     border:solid #f2f2f2 1px;
                     border-radius:20px 20px 20px 20px;
@@ -192,40 +269,42 @@
                 .propriétésimage1{
                     object-fit: cover;
                     height:340px;
-                    width:220px;
-                    border-radius: 20px 20px 0 0;
+                    width:170px;
+                    border-radius:20px 20px 0 0;
                 } 
                 .propriétésimage2{
                     object-fit: cover;
-                    height:130px;
-                    width:220px;
-                    border-radius: 20px 20px 0 0;
+                    height:140px;
+                    width:170px;
+                    border-radius:20px 20px 0 0;
                 }
                 .propriétésimage3{
                     object-fit:cover;
-                    height:90px;
-                    width:220px;
+                    height:110px;
+                    width:170px;
                     border-radius: 20px 20px 0 0;
+                }
+                .margetext3{
+                    padding-left:5px;
+                    padding-top:10px;
+                    font-weight:bold;
                 }
                 footer{
                     display:flex;
                     justify-content: space-between;
                     align-items: center;
                     height:150px;
-                    width:142%;
-                    margin-top: 50px;
-                    margin-bottom: 30px;
-                    margin-left:20px;
-                    padding-top: 20px;
+                    width:100%;
+                    margin-top:50px;
+                    margin-bottom:30px;
+                    padding-top:20px;
                     background-color: #F2F2F2;
                 }
                 .tailleblocfooter{
                     /* height:140px; */
                     font-size:12px;
-                    padding-right:200px;
-                    padding-top:5px;
-                    padding-left:30px;
-                    padding-bottom:5px;
+                    padding-right:20px;
+                    padding-left:20px; 
                 }
-                  
-}
+            }                 
+

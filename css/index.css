@@ -1,12 +1,11 @@
-
-*
-{
+*{
     box-sizing: border-box;
 }
 html,body{
     font-family: "Raleway", sans-serif;
     margin:0;
     padding:0;
+    overflow-x:hidden;
 }
 #blocpage{
     max-width: 1400px;
@@ -54,7 +53,6 @@ header nav ul li:hover a{
 h2{
     margin-left:40px;
 }
-
 /*recherche*/
 .barrederecherche{
     display: flex;
@@ -140,8 +138,7 @@ input{
     border-radius: 30px;
     border:#F2F2F2 solid 1px;
     height:40px;
-    width:180px;
-    margin-left:10px ;
+    margin-left:10px;
     margin-right:10px;
     font-weight: bold;
     display:flex;
@@ -152,8 +149,7 @@ input{
     border-radius: 30px;
     border:#F2F2F2 solid 1px;
     height:40px;
-    width:140px;
-    margin-left:10px ;
+    margin-left:10px;
     margin-right:10px;
     font-weight: bold;
     display:flex;
@@ -164,8 +160,7 @@ input{
     border-radius: 30px;
     border:#F2F2F2 solid 1px;
     height:40px;
-    width:180px;
-    margin-left:10px ;
+    margin-left:10px;
     margin-right:10px;
     font-weight: bold;
     display:flex;
@@ -176,8 +171,7 @@ input{
     border-radius: 30px;
     border:#F2F2F2 solid 1px;
     height:40px;
-    width:220px;
-    margin-left:10px ;
+    margin-left:10px;
     margin-right:10px;
     font-weight: bold;
     display:flex;
@@ -246,8 +240,8 @@ input{
 }  
 .propriétésimg1{
     object-fit: cover;
-    height:100px;
-    width:230px;
+    height:100%;
+    width:100%;
     border-radius: 20px 20px 0 0;
     padding-top: 3px;
     padding-right: 3px;
@@ -281,11 +275,11 @@ input{
 .propriétésimg2{
     object-fit: cover;
     height:116px;
-    width:105px;
+    width:90px;
     border-radius: 20px 0 0 20px;
     padding-top: 3px;
-    padding-right: 10px;
-    padding-left: 3px;
+    padding-right:0px;
+    padding-left:3px;
 } 
 .boitecarte2{
     display:flex;
@@ -295,7 +289,7 @@ input{
     width:290px;
     background-color:#ffffff;
     border-radius: 20px;
-    margin-left:-5px;
+    margin-left:-3px;
     font-size: 18px;
 }
 .margetitrepopulaire{
@@ -314,9 +308,7 @@ input{
     margin-left:10px;
     font-weight: bold;
     }
-
 /*activités à Marseille*/
-
 .boite{
     display:flex;
     justify-content: space-between;
@@ -394,9 +386,9 @@ footer{
     align-items: center;
     height:150px;
     width:97%;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-top:50px;
+    margin-bottom:30px;
+    padding-top:20px;
     background-color: #F2F2F2;
 }
 .tailleblocfooter{

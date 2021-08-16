@@ -1,41 +1,37 @@
 @media all and (max-width: 767px){
-
-    #blocpage{
-        padding:20px;
-    }
     /*header*/
     .logo{
-        margin-left:10px;
-    }
-    header{
-        padding-left:20px;
+        margin-left:0px;
     }
     header nav ul li :last-child{
         position:absolute;
         margin-top:20px;
-        margin-right:40px;
-        margin-left:60px;
+        margin-right:20px;
+        margin-left:40px;
+        border-top: 1px solid transparent !important;
     }
     #activites{
-        margin-top: 80px;
-        margin-left: 22px;
+        margin-top: 60px;
+        margin-left:-5px;
         border-bottom: solid #F2F2F2 2px;
-        padding-left: 54px;
-        padding-right: 54px;
+        padding-left:40px;
+        padding-right:80px;
         padding-bottom:10px;
-      }
+        border-top: 1px solid transparent !important;
+    }
     #hebergement{
-        margin-top: 80px;
-        margin-left:-110px;
+        margin-top: 60px;
+        margin-left:-135px;
         border-bottom: solid 2px #0065FC;
         padding-left:42px;
         padding-right:42px;
         padding-bottom:10px;
+        border-top: 1px solid transparent !important;
     }
     h2{
-        margin-left:20px;
+        margin-left:0px;
         padding-top:60px;
-        font-size: 22px;
+        font-size:18px;
         font-weight: bold;
     }
     /*recherche*/
@@ -44,7 +40,8 @@
         justify-content: center;
         align-items: center;
         width: 320px;
-        margin-left:20px;
+        height:50px;
+        margin-left:0px;
         border-radius: 15px;
         border:0.5px solid #F2F2F2;
         margin-bottom:30px;
@@ -61,7 +58,7 @@
     input{
         height:50px;
         width:220px;
-        font-size: 16px;
+        font-size:18px;
         color: black;
         font-weight: bold;
         display:flex;
@@ -72,24 +69,23 @@
     }
     #search-button{
     border-radius:15px;
-    
-  }
-  #search-button span{
+    }
+    #search-button span{
        display:none;
-  }
-  #search-button img{
-       
+    }
+    #search-button img{
        width:18px;
        height:18px;
        display:inline-block;
     }
     #paragraphe{
+        margin-left:0px;
+        margin-top:10px;
         margin-bottom:20px;
-        margin-left:20px;
     }
     /*filtre*/
     .margefiltre{
-        margin-left:20px;
+        margin-left:0px;
     }
     .filtre{
         display:table-row;
@@ -100,7 +96,8 @@
         border-radius: 30px;
         border:#F2F2F2 solid 1px;
         height:40px;
-        margin-left:20px ;
+        width:180px;
+        margin-left:5px ;
         margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
@@ -114,8 +111,8 @@
         border:#F2F2F2 solid 1px;
         height:40px;
         width:140px;
-        margin-left:210px;
-        margin-right:20px;
+        margin-left:200px;
+        margin-right:10px;
         margin-top:-60px;
         margin-bottom:20px;
         font-weight: bold;
@@ -127,7 +124,7 @@
         border:#F2F2F2 solid 1px;
         height:40px;
         width:170px;
-        margin-left:20px ;
+        margin-left:5px ;
         margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
@@ -141,7 +138,7 @@
         border:#F2F2F2 solid 1px;
         height:40px;
         width:220px;
-        margin-left:20px ;
+        margin-left:5px ;
         margin-right:20px;
         margin-top:20px;
         margin-bottom:10px;
@@ -158,22 +155,21 @@
         display: flex;
         justify-content: center;
         align-items:center;
-        margin-left: -2px;
+        margin-left:-2px;
         border-radius:25px;
     }
     #container{
-        width:400px;
+        width:350px;
         display:flex;
         margin-bottom:20px;
-        margin-left:10px;
+        margin-left:0px;
         margin-top:20px;
-          }
+        }
       #container svg{
-    
         width:16px;
         height:16px;
      }
-    #container span{
+     #container span{
        display:inline-block;
        vertical-align:bottom;
        padding-left:5px;
@@ -184,7 +180,6 @@
         padding-right:5px;
         padding-top:10px;
         margin-left:10px;
-
     }
     .icone:hover{
         color:#ffffff;
@@ -204,16 +199,12 @@
     }
     /*carteshebergements*/
     .lespluspopulaires{
-       width:90%;
+       width:92%;
        height:80%;
        background-color: #F2F2F2;
        border-radius:0 0 0 0px;
-       padding-left:40px;
-       padding-right: 20px;
        padding-top:20px;
        position:absolute;
-       margin-left:20px;
-       margin-right:10px;
     }
     .margepopulaire{
         display: flex;
@@ -222,7 +213,7 @@
     } 
     .margetitrepopulaire{
         margin-top:10px;
-        font-size:14px;
+        font-size:18px;
     } 
     .margetext2{
         display:flex;
@@ -231,59 +222,59 @@
     }  
     .arrangementcartes{
         display:flex;
-        gap:20px;
+        gap:5px;
         flex-direction:column;
-        margin-bottom: 20px;
+        margin-bottom:5px;
     }
     .hébergementMarseille{
         margin-top:520px;
         background-color:transparent !important;
         width:100%;
-        margin-left:-10px;
+        margin-left:0px;
     }
+    .margetext{
+        margin-left:10px;
+        margin-top: 10px;
+        font-size:18px;
+    }    
     .margetitre{
-        margin-left:40px;
+        margin-left:5px;
         }      
-
     .boitecarte{
        display:flex;
-        gap:20px;
         flex-direction: column;
-        height:170px;
+        height:180px;
         width:300px;
+        gap:5px;
         border:solid 2px #ffffff;
         background-color:#ffffff;
         border-radius: 20px;
-        margin-left: 35px;
-        font-size: 18px;
         margin-bottom:10px;
         flex-direction: row;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
         }  
     .margetext{
         margin-left:10px;
-        margin-top: 10px;
-        font-size:14px;
+        margin-top:5px;
         }         
     .boitecarte2{
         display:flex;
-        gap:5px;
+        gap:0px;
         flex-direction:column;
         height:125px;
-        width:270px;
+        width:300px;
         background-color:#ffffff;
         border-radius:20px;
-        margin-left:-5px;
-        font-size: 18px;
+        margin-left:-6px;
         }
     .propriétésimg2{
         object-fit: cover;
-        height:121px;
-        width:120px;
+        height:120px;
+        width:100px;
         border-radius: 20px 0 0 20px;
-        padding-top: 3px;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-left:5px;
+        padding-top:5px;
+
         } 
     .chart-line{
         height:20px;
@@ -291,32 +282,33 @@
         margin-right:10px;
         } 
         .margetitrepopulaire{
-            margin-top:5px;
+            margin-top:10px;
+            margin-left:10px;
         }        
     .propriétésimg1{
         object-fit: cover;
         height:100px;
-        width:300px;
+        width:297px;
         border-radius: 20px 20px 0 0;
         padding-top: 3px;
-        padding-right:4px;
-        padding-left:0px;
+        padding-right:3px;
+        padding-left:3px;
         }
     .margétoile{
-        padding-top:50px;
+        padding-top:30px;
         } 
     .margehebergement{
-        margin-left:40px;
+        margin-left:15px;
         font-weight: bold;
         }
     /*activités à marseille*/        
     .boitecarte01{
         display:flex;
-        height:170px;
+        height:180px;
         width:300px;
-        margin-bottom:10px;
-        margin-top:10px;
-        margin-left: 45px;
+        margin-left:20px;
+        margin-bottom:15px;
+        margin-top:5px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius: 20px 20px 20px 20px;
@@ -324,24 +316,21 @@
         }     
     .boitecarte02{
         display:flex;
-        height:170px;
+        height:180px;
         width:300px;
-        margin-bottom:-15px;
-        margin-top:-15px;
-        margin-left:45px;
+        margin-left:20px;
+        margin-top:-0px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius:20px 20px 20px 20px;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
-
     }
     .boitecarte03{
         display:flex;
-        height:170px;
+        height:180px;
         width:300px;
-        margin-bottom:-10px;
-        margin-top:-10px;
-        margin-left:45px;
+        margin-left:20px;
+        margin-top:-20px;
         background-color: #ffffff;
         border:solid #f2f2f2 1px;
         border-radius:20px 20px 20px 20px;
@@ -351,62 +340,54 @@
         display:flex;
         justify-content: center;
         flex-direction: column;
-        padding-top:-15px;
-        padding-bottom:-15px;
-        
-    } 
+
+        }  
     .boite1{
         display:flex;
         justify-content: center;
         flex-direction: column;
-        padding-top:20px;
-        padding-bottom:20px;
-    }
+        gap:-40px;
+        }
     .propriétésimage1{
         object-fit: cover;
         height:120px;
         width:300px;
-        margin-bottom: 5px;
         border-radius: 20px 20px 0 0;
     } 
     .propriétésimage2{
         object-fit: cover;
         height:120px;
         width:300px;
-        margin-bottom: 5px;
         border-radius: 20px 20px 0 0;
     }  
     .propriétésimage3{
         object-fit:cover;
         height:120px;
         width:300px;
-        margin-bottom: 5px;
         border-radius: 20px 20px 0 0;
     }        
     .margetext3{
         padding-left:20px;
-        padding-top: 0px;
+        padding-top:8px;
         font-weight: bold;
     }
     .margeactivites{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left:50px;
-        font-weight: bold;
+        margin-top:10px;
+        margin-bottom:20px;
+        margin-left:22px;
+        font-weight:bold;
     }
     /*footer*/
     footer{
         flex-direction:column;
-        height:400px;
-        width:98%;
+        height:500px;
+        width:100%;
         background-color: #F2F2F2;
         margin-top:40px;
-        margin-left:30px;
     }
     .tailleblocfooter{
-        height:150px;
-        width:95%;
-        font-size:0,85rem;
+        width:100%;
+        font-size:18px;
         padding-right:30px;
         padding-left:30px;
     }
