@@ -1,5 +1,8 @@
 @media all and (max-width: 767px){
     /*header*/
+    header nav ul li:first-child{
+        border-top:none;
+    }
     .logo{
         margin-left:0px;
     }
@@ -8,7 +11,6 @@
         margin-top:20px;
         margin-right:20px;
         margin-left:40px;
-        border-top: 1px solid transparent !important;
     }
     #activites{
         margin-top: 60px;
@@ -17,16 +19,14 @@
         padding-left:40px;
         padding-right:80px;
         padding-bottom:10px;
-        border-top: 1px solid transparent !important;
     }
     #hebergement{
-        margin-top: 60px;
+        margin-top:60px;
         margin-left:-135px;
         border-bottom: solid 2px #0065FC;
         padding-left:42px;
         padding-right:42px;
         padding-bottom:10px;
-        border-top: 1px solid transparent !important;
     }
     h2{
         margin-left:0px;
@@ -175,11 +175,9 @@
        padding-left:5px;
      }
     .iconeinfo{
-        height:35px;
-        width:35px;
-        padding-right:5px;
-        padding-top:10px;
-        margin-left:10px;
+        height:40px;
+        width:40px;
+        margin-top:-20px;
     }
     .icone:hover{
         color:#ffffff;
@@ -199,13 +197,18 @@
     }
     /*carteshebergements*/
     .lespluspopulaires{
-       width:92%;
+       width:100%;
        height:80%;
        background-color: #F2F2F2;
        border-radius:0 0 0 0px;
        padding-top:20px;
        position:absolute;
     }
+    .chart-line{
+        height:20px;
+        width:20px;
+        margin-right:20px;
+        } 
     .margepopulaire{
         display: flex;
         justify-content: space-between;
@@ -234,7 +237,7 @@
     }
     .margetext{
         margin-left:10px;
-        margin-top: 10px;
+        margin-top:10px;
         font-size:18px;
     }    
     .margetitre{
@@ -250,43 +253,35 @@
         background-color:#ffffff;
         border-radius: 20px;
         margin-bottom:10px;
+        margin-left:17px;
         flex-direction: row;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
-        }  
-    .margetext{
-        margin-left:10px;
-        margin-top:5px;
-        }         
+        }     
     .boitecarte2{
         display:flex;
         gap:0px;
         flex-direction:column;
         height:125px;
-        width:300px;
+        width:305px;
         background-color:#ffffff;
         border-radius:20px;
-        margin-left:-6px;
+        margin-left:-2px;
+        }
+    .margetitrepopulaire{
+        margin-top:10px;
+        margin-left:10px;
         }
     .propriétésimg2{
         object-fit: cover;
-        height:120px;
-        width:100px;
+        height:122px;
+        width:90px;
         border-radius: 20px 0 0 20px;
-        padding-left:5px;
-        padding-top:5px;
-
-        } 
-    .chart-line{
-        height:20px;
-        width:20px;
-        margin-right:10px;
-        } 
-        .margetitrepopulaire{
-            margin-top:10px;
-            margin-left:10px;
-        }        
+        padding-top: 3px;
+        padding-right:0px;
+        padding-left:3px;
+        }         
     .propriétésimg1{
-        object-fit: cover;
+        object-fit:cover;
         height:100px;
         width:297px;
         border-radius: 20px 20px 0 0;
@@ -298,17 +293,19 @@
         padding-top:30px;
         } 
     .margehebergement{
-        margin-left:15px;
-        font-weight: bold;
+        margin-left:17px;
+        font-weight:bold;
         }
+    .margetitre{
+        margin-left:20px;
+        }  
     /*activités à marseille*/        
     .boitecarte01{
         display:flex;
         height:180px;
         width:300px;
-        margin-left:20px;
-        margin-bottom:15px;
-        margin-top:5px;
+        margin-left:35px;
+        margin-bottom:33px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius: 20px 20px 20px 20px;
@@ -318,8 +315,8 @@
         display:flex;
         height:180px;
         width:300px;
-        margin-left:20px;
-        margin-top:-0px;
+        margin-left:35px;
+        margin-bottom:28px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius:20px 20px 20px 20px;
@@ -329,8 +326,8 @@
         display:flex;
         height:180px;
         width:300px;
-        margin-left:20px;
-        margin-top:-20px;
+        margin-left:35px;
+        margin-bottom:30px;
         background-color: #ffffff;
         border:solid #f2f2f2 1px;
         border-radius:20px 20px 20px 20px;
@@ -338,54 +335,55 @@
     }
     .boite{
         display:flex;
-        justify-content: center;
-        flex-direction: column;
-
+        justify-content:center;
+        flex-direction:column;
         }  
     .boite1{
         display:flex;
         justify-content: center;
         flex-direction: column;
-        gap:-40px;
+        gap:10px;
         }
     .propriétésimage1{
         object-fit: cover;
         height:120px;
-        width:300px;
-        border-radius: 20px 20px 0 0;
+        width:298px;
+        border-radius:20px 20px 0 0;
     } 
     .propriétésimage2{
         object-fit: cover;
         height:120px;
-        width:300px;
-        border-radius: 20px 20px 0 0;
+        width:298px;
+        border-radius:20px 20px 0 0;
     }  
     .propriétésimage3{
         object-fit:cover;
         height:120px;
-        width:300px;
-        border-radius: 20px 20px 0 0;
+        width:298px;
+        border-radius:20px 20px 0 0;
     }        
     .margetext3{
-        padding-left:20px;
-        padding-top:8px;
+        padding-left:15px;
+        padding-top:10px;
         font-weight: bold;
     }
     .margeactivites{
         margin-top:10px;
         margin-bottom:20px;
-        margin-left:22px;
+        margin-left:35px;
         font-weight:bold;
     }
     /*footer*/
     footer{
         flex-direction:column;
-        height:500px;
+        height:600px;
         width:100%;
         background-color: #F2F2F2;
         margin-top:40px;
+        margin-bottom:20px;
     }
     .tailleblocfooter{
+        height:100%;
         width:100%;
         font-size:18px;
         padding-right:30px;
