@@ -129,7 +129,7 @@
         margin-right:-15px;
         }
     .margetext{
-        margin-left:5px;
+        margin-left:10px;
         margin-top: 5px;
         }    
     .boitecarte{
@@ -139,7 +139,7 @@
         height:140px;
         width:180px;
         background-color:#ffffff;
-        border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 20px 20px;
         font-size:12px;
         margin-left:25px;
         margin-bottom:10px;
@@ -156,12 +156,9 @@
         }          
     .margehebergement{
         margin-top:10px;
-        margin-left:25px;
+        margin-left:30px;
         font-weight: bold;
         }
-    .margetitre{
-        padding-left:20px;
-        }         
     .lespluspopulaires{
         width:105%;
         background-color: #F2F2F2;
@@ -180,14 +177,13 @@
             } 
     .boitecarte2{
         display:flex;
-        gap:3px;
         flex-direction:column;
         height:110px;
         width:100%;
         background-color:#ffffff;
         border-radius:20px;
         font-size:12px;
-        gap:20px;
+        margin-left:0px;
         }
     .propriétésimg2{
         object-fit: cover;
@@ -216,7 +212,7 @@
         margin-top:-25px;
         }  
     .margetitre{
-        margin-left:0px;
+        margin-left:30px;
         }
     /*activites a marseille*/    
     .boite{
@@ -317,7 +313,7 @@
         height:170px;
         width:180px;
         background-color:#ffffff;
-        border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 20px 20px;
         font-size:12px;
         margin-left:0px;
         margin-bottom:10px;
@@ -333,6 +329,11 @@
         padding-right:2%;
         padding-left:2%;
             }
+    .margehebergement{
+        margin-top:10px;
+        margin-left:5px;
+        font-weight: bold;
+                }        
     .lespluspopulaires{
         width:35%;
         height:507px;
@@ -350,14 +351,12 @@
             }
     .boitecarte2{
         display:flex;
-        gap:3px;
         flex-direction:column;
         width:100%;
         background-color:#ffffff;
         border-radius:20px;
         font-size:12px;
-        gap:20px;
-        padding-right:5px;
+        margin-left:0px;
             }
     .propriétésimg2{
         object-fit: cover;
@@ -427,5 +426,8 @@
         margin-left:160px;
         margin-top:-450px;
         font-weight:bold;
-        }                                                                                                                                        
+        }
+    .margetitre{
+        margin-left:5px;
+            }                                                                                                                                        
 }         
