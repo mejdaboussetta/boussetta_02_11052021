@@ -141,7 +141,7 @@
         background-color:#ffffff;
         border-radius: 20px 20px 0 0;
         font-size:12px;
-        margin-left:20px;
+        margin-left:25px;
         margin-bottom:10px;
         flex-direction: row;
         }
@@ -217,100 +217,215 @@
         }  
     .margetitre{
         margin-left:0px;
-        } 
-    .margeactivites{
-        margin-top:20px;
-        margin-left:20px;
-        font-weight:bold;
-        }          
+        }
+    /*activites a marseille*/    
+    .boite{
+        display:flex;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-left:90px;
+        }
     .boitecarte01{
         display:flex;
         height:400px;
-        width:210px;
+        width:500px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius:20px 20px 20px 20px;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
-        margin-left:0px;
-        margin-bottom:20px;
-        } 
-    .boite1{
-        display:flex;
-        justify-content:center;
-        flex-direction:column;
-        margin-left:60px;
-        margin-top:20px;
-        } 
-    .boite{
-        display:flex;
-        justify-content:space-between;
-        flex-direction:column;
-        margin-left:20px;
+        margin-bottom:30px;
+        margin-top:10px;
+        margin-bottom:70px;
+        }
+    .propriétésimage1{
+        object-fit:cover;
+        height:340px;
+        width:500px;
+        border-radius: 20px 20px 0 0;
         }
     .boitecarte02{
         display:flex;
         height:400px;
-        width:210px;
+        width:500px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
         border-radius:20px 20px 20px 20px;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
-        margin-left:180px;
-        margin-top:-440px;
-        margin-bottom:20px;
+        margin-top:-15px;
+        }
+    .propriétésimage2{
+        object-fit: cover;
+        height:340px;
+        width:500px;
+        border-radius: 20px 20px 0 0;
         } 
     .boitecarte03{
         display:flex;
         height:400px;
-        width:210px;
+        width:500px;
         background-color: #ffffff;
         border:solid #f2f2f2 1px;
         border-radius:20px 20px 20px 20px;
         box-shadow:5px 5px 10px 3px rgba(242,242,242,1);
-        margin-left:400px;
-        margin-top:-460px;
+        margin-top:15px;
         margin-bottom:40px;
-        }
-    .propriétésimage1{
-        object-fit: cover;
-        height:340px;
-        width:210px;
-        border-radius:20px 20px 0 0;
-        } 
-    .propriétésimage2{
-        object-fit: cover;
-        height:340px;
-        width:210px;
-        border-radius:20px 20px 0 0;
         }
     .propriétésimage3{
         object-fit:cover;
         height:340px;
-        width:210px;
+        width:500px;
         border-radius: 20px 20px 0 0;
-        }
-    .margetext3{
-        padding-left:5px;
-        padding-top:10px;
+        }                
+    .margeactivites{
+        margin-top:20px;
+        margin-left:130px;
         font-weight:bold;
+        } 
+    /*footer*/             
+    footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height:150px;
+        width:95%;
+        margin-left:20px;
+        margin-top:50px;
+        margin-bottom:30px;
+        padding-top:20px;
+        background-color: #F2F2F2;
+            }
+    .tailleblocfooter{
+        /* height:140px; */
+        font-size:12px;
+        padding-right:20px;
+        padding-left:20px; 
+            }
+        }
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .hébergementMarseille{
+        width:65%;
+        background-color: #F2F2F2;
+        border-radius:10px;
+        padding-top:20px;
+        padding-right:10px;
+        margin-right:-30px;
+        }
+    .boitecarte{
+        display:flex;
+        gap:2px;
+        flex-direction: column;
+        height:170px;
+        width:180px;
+        background-color:#ffffff;
+        border-radius: 20px 20px 0 0;
+        font-size:12px;
+        margin-left:0px;
+        margin-bottom:10px;
+        margin-right:0px;
+        flex-direction: row;
+            }
+    .propriétésimg1{
+        object-fit:cover;
+        height:60%;
+        width:180px;
+        border-radius: 20px 20px 0 0;
+        padding-top:2%;
+        padding-right:2%;
+        padding-left:2%;
+            }
+    .lespluspopulaires{
+        width:35%;
+        height:507px;
+        background-color: #F2F2F2;
+        border-radius:10px;
+        margin-left:20px;
+        margin-top:-0px;
+            }
+    .margepopulaire{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-left:5px;
+        margin-top:-10px;
+            }
+    .boitecarte2{
+        display:flex;
+        gap:3px;
+        flex-direction:column;
+        width:100%;
+        background-color:#ffffff;
+        border-radius:20px;
+        font-size:12px;
+        gap:20px;
+        padding-right:5px;
+            }
+    .propriétésimg2{
+        object-fit: cover;
+        height:110px;
+        width:40%;
+        border-radius:20px 0 0 20px;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:3px;
                 }
-                footer{
-                    display:flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    height:150px;
-                    width:95%;
-                    margin-left:20px;
-                    margin-top:50px;
-                    margin-bottom:30px;
-                    padding-top:20px;
-                    background-color: #F2F2F2;
+    .margetitrepopulaire{
+        margin-top:5px;
+        margin-left:5px;
                 }
-                .tailleblocfooter{
-                    /* height:140px; */
-                    font-size:12px;
-                    padding-right:20px;
-                    padding-left:20px; 
+    .boite{
+        display:flex;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-left:120px;
                 }
-            }                 
-
+    .boitecarte01{
+        display:flex;
+        height:300px;
+        width:700px;
+        background-color: #ffffff;
+        border:solid #F2F2F2 1px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
+                }
+    .propriétésimage1{
+        object-fit: cover;
+        height:230px;
+        width:700px;
+        border-radius: 20px 20px 0 0;
+               }
+    .boitecarte02{
+        display:flex;
+        height:300px;
+        width:700px;
+        background-color: #ffffff;
+        border:solid #F2F2F2 1px;
+        border-radius:20px 20px 20px 20px;
+        box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
+                        }
+    .propriétésimage2{
+        object-fit: cover;
+        height:230px;
+        width:700px;
+        border-radius: 20px 20px 0 0;
+                    } 
+    .boitecarte03{
+        display:flex;
+        height:300px;
+        width:700px;
+        background-color: #ffffff;
+        border:solid #f2f2f2 1px;
+        border-radius:20px 20px 20px 20px;
+        box-shadow:5px 5px 10px 3px rgba(242,242,242,1);
+                }
+    .propriétésimage3{
+        object-fit:cover;
+        height:230px;
+        width:700px;
+        border-radius: 20px 20px 0 0;
+                }
+    .margeactivites{
+        margin-left:160px;
+        margin-top:-450px;
+        font-weight:bold;
+        }                                                                                                                                        
+}         
