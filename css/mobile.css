@@ -97,7 +97,7 @@
         border:#F2F2F2 solid 1px;
         height:40px;
         width:180px;
-        margin-left:5px ;
+        margin-left:5px;
         margin-right:20px;
         margin-top:20px;
         margin-bottom:20px;
@@ -197,52 +197,53 @@
     }
     /*carteshebergements*/
     .lespluspopulaires{
-       width:100%;
+       width:345px;
        height:80%;
        background-color: #F2F2F2;
        border-radius:0 0 0 0px;
-       padding-top:20px;
+       margin-top:20px;
        position:absolute;
-    }
+        }
+    .boitecarte2{
+        display:flex;
+        flex-direction:column;
+        background-color:#ffffff;
+        border-radius:20px;
+        gap:0px;
+        margin-left:0px;
+        }
+    .propriétésimg2{
+        object-fit: cover;
+        height:122px;
+        width:100px;
+        border-radius: 20px 0 0 20px;
+        padding-bottom:5px;
+        }         
     .chart-line{
         height:20px;
         width:20px;
-        margin-right:20px;
+        margin-right:0px;
         } 
-    .margepopulaire{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } 
     .margetitrepopulaire{
-        margin-top:10px;
-        font-size:18px;
-    } 
-    .margetext2{
-        display:flex;
-        align-items: flex-start;
-        margin-bottom: 20px;
-    }  
-    .arrangementcartes{
-        display:flex;
-        gap:5px;
-        flex-direction:column;
-        margin-bottom:5px;
+        margin-top:5px;
+        margin-left:20px;
+        font-size:16px;
     }
+    h3{
+        margin-top:10px;
+        margin-left:8px;
+    }  
     .hébergementMarseille{
-        margin-top:520px;
-        background-color:transparent !important;
+        margin-top:530px;
         width:100%;
-        margin-left:0px;
+        background-color:transparent !important;
+        margin-left:-18px;
     }
     .margetext{
         margin-left:10px;
         margin-top:10px;
-        font-size:18px;
-    }    
-    .margetitre{
-        margin-left:5px;
-        }      
+        font-size:16px;
+    }      
     .boitecarte{
        display:flex;
         flex-direction: column;
@@ -257,29 +258,6 @@
         flex-direction: row;
         box-shadow: 5px 5px 10px 3px rgba(242,242,242,1);
         }     
-    .boitecarte2{
-        display:flex;
-        gap:0px;
-        flex-direction:column;
-        height:125px;
-        width:305px;
-        background-color:#ffffff;
-        border-radius:20px;
-        margin-left:-2px;
-        }
-    .margetitrepopulaire{
-        margin-top:10px;
-        margin-left:10px;
-        }
-    .propriétésimg2{
-        object-fit: cover;
-        height:122px;
-        width:90px;
-        border-radius: 20px 0 0 20px;
-        padding-top: 3px;
-        padding-right:0px;
-        padding-left:3px;
-        }         
     .propriétésimg1{
         object-fit:cover;
         height:100px;
@@ -289,13 +267,15 @@
         padding-right:3px;
         padding-left:3px;
         }
+    .margehebergement{
+        margin-left:17px;
+        margin-top:20px;
+        font-weight:bold;
+        font-size:18px;
+        }
     .margétoile{
         padding-top:30px;
         } 
-    .margehebergement{
-        margin-left:17px;
-        font-weight:bold;
-        }
     .margetitre{
         margin-left:20px;
         }  
@@ -304,7 +284,7 @@
         display:flex;
         height:180px;
         width:300px;
-        margin-left:35px;
+        margin-left:22px;
         margin-bottom:33px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
@@ -315,7 +295,7 @@
         display:flex;
         height:180px;
         width:300px;
-        margin-left:35px;
+        margin-left:22px;
         margin-bottom:28px;
         background-color: #ffffff;
         border:solid #F2F2F2 1px;
@@ -326,7 +306,7 @@
         display:flex;
         height:180px;
         width:300px;
-        margin-left:35px;
+        margin-left:22px;
         margin-bottom:30px;
         background-color: #ffffff;
         border:solid #f2f2f2 1px;
@@ -370,7 +350,7 @@
     .margeactivites{
         margin-top:10px;
         margin-bottom:20px;
-        margin-left:35px;
+        margin-left:30px;
         font-weight:bold;
     }
     /*footer*/
